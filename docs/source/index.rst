@@ -12,4 +12,12 @@ Contents
 
    usage
    api
-   category1/Document1.rst
+
+Category 1
+-----------
+.. toctree::
+   :maxdepth: 1
+   :caption: Category 1
+
+   category1/Document1.rst 
+   category1/Document2.rst
