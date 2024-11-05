@@ -6,6 +6,6 @@ Contents
 
 Test content
 
-.. image:: images/nobackground.png
+.. image:: images/NoBackground.png
    :alt: Alternative text for the image
    :align: center
