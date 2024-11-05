@@ -1,0 +1,35 @@
+name: Restrict File Edits
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Check for restricted file edits
+        run: |
+          # Specify the paths of the files you want to restrict
+          RESTRICTED_FILES=(
+          "README.rst"
+          ".gitignore"
+          ".readthedocs.yaml"
+          ".github/workflows/restrict-file-edit.yml"
+          "docs/source/index.rst"
+          "docs/source/conf.py"
+          "docs/make.bat"
+          "docs/Makefile"
+          "docs/requirements.txt"
+          )
+
+          # Check if any restricted files were modified
+          for FILE in "${RESTRICTED_FILES[@]}"; do
+            if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q "$FILE"; then
+              echo "Error: Edits to '$FILE' are not allowed."
+              exit 1
+            fi
+          done
