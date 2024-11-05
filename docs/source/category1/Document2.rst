@@ -1,4 +1,4 @@
-Document 1
+Document 2
 ===================================
 
 Contents

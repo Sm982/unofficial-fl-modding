@@ -9,15 +9,17 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
 
    usage
    api
 
-Category 1
------------
-.. toctree::
-   :maxdepth: 1
-   :caption: Category 1
+   Category 1
+   -----------
 
-   category1/Document1.rst 
-   category1/Document2.rst
+   .. toctree::
+      :maxdepth: 1
+      :caption: Category 1
+
+      category1/Document1
+      category1/Document2

@@ -6,7 +6,7 @@ project = 'Unofficial Modding for Flashing Lights'
 copyright = 'All assets are copyrighted by the respected owners of Flashing Lights Game.'
 author = 'SillyMonkey982'
 
-release = '1'
+release = ''
 version = '1.0.0'
 
 # -- General configuration
