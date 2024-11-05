@@ -12,4 +12,4 @@ Contents
 
    usage
    api
-   category1/document1
+   category1/Document1.rst
