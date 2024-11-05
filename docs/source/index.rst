@@ -14,6 +14,7 @@ Contents
 
    usage
    api
+   testdocument1
 
    Category 1
    ===========
