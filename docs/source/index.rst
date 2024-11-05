@@ -12,3 +12,4 @@ Contents
 
    usage
    api
+   category1/document1

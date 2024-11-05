@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Unofficial Modding for Flashing Lights'
+copyright = 'All assets are copyrighted by the respected owners of Flashing Lights Game.'
+author = 'SillyMonkey982'
 
-release = '0.1'
-version = '0.1.0'
+release = '1'
+version = '1.0.0'
 
 # -- General configuration
 
