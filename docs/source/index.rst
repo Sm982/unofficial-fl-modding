@@ -4,7 +4,7 @@ Test commit
 
 .. note::
 
-   This project is under active development. - Test pull request
+   This project is under active development.
 
 Contents
 --------
