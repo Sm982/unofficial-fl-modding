@@ -1,4 +1,4 @@
-# Documentation for Unofficial FL Modding
+# Documentation for Unofficial Modding in Flashing Lights
 
 This github repository sole purpose is to provide documentation on unofficial modding in flashing lights. The current documentation can be found at https://fl.sillymonkey982.com 
 
