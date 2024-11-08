@@ -18,3 +18,7 @@ Test 3
 --------
 
 test 3
+
+.. image:: images/NoBackground.png
+   :alt: Alternative text for the image
+   :align: center
