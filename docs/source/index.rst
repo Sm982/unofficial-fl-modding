@@ -1,4 +1,4 @@
-Welcome to Unofficial Flashing Lights documentation!
+Welcome to Flashing Lights Unofficial modding documentation!
 ===================================
 Test commit
 
@@ -12,9 +12,15 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   usage
-   api
-   testdocument1
+   about
+   
+   Modding methods
+   ===========
+.. toctree::
+   :maxdepth: 1
+   :caption: Modding methods
+
+   moddingmethods/index
 
    Category 1
    ===========

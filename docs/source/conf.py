@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Unofficial Modding for Flashing Lights'
-copyright = 'All assets are copyrighted by the respected owners of Flashing Lights Game.'
+project = 'Flashing Lights Unofficial Modding'
+copyright = 'Maintained by SillyMonkey982 - All assets are copyrighted by the respected owners of Flashing Lights Game.'
 author = 'SillyMonkey982'
 
 release = ''
